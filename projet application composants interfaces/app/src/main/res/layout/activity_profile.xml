@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Barre d'outils -->
+    <include layout="@layout/toolbar" />
+
+    <!-- Contenu principal -->
+    <TextView
+        android:id="@+id/text_view_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/profile" />
+
+    <ImageView
+        android:id="@+id/image_view_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/profile_image" />
+
+    <TextView
+        android:id="@+id/text_view_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/full_name" />
+
+    <TextView
+        android:id="@+id/text_view_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/email_address" />
+
+    <TextView
+        android:id="@+id/text_view_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/phone_number" />
+
+    <!-- Barre de navigation en bas -->
+    <include layout="@layout/bottom_navigation" />
+
+</LinearLayout>

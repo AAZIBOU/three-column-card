@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Barre d'outils -->
+    <include layout="@layout/toolbar" />
+
+    <!-- Contenu principal -->
+    <TextView
+        android:id="@+id/text_view_settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/settings" />
+
+    <CheckBox
+        android:id="@+id/check_box_notifications"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/notifications" />
+
+    <SeekBar
+        android:id="@+id/seek_bar_volume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="@integer/volume_max"
+        android:progress="@integer/volume_default" />
+
+    <TextView
+        android:id="@+id/text_view_volume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/volume" />
+
+    <!-- Barre de navigation en bas -->
+    <include layout="@layout/bottom_navigation" />
+
+</LinearLayout>

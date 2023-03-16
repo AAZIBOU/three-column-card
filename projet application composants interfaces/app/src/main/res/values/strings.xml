@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Login App</string>
+
+    <string name="label_name">Nom:</string>
+    <string name="label_surname">Prénom:</string>
+    <string name="label_phone">Téléphone:</string>
+    <string name="label_email">Email:</string>
+    <string name="label_password">Mot de passe:</string>
+    <string name="button_login">Connexion</string>
+    <string name="button_register">S\'inscrire</string>
+
+    <string name="error_empty">Le champ ne peut pas être vide.</string>
+    <string name="error_email">L'adresse e-mail est invalide.</string>
+    <string name="error_password">Le mot de passe doit avoir au moins 6 caractères.</string>
+    <string name="error_phone">Le numéro de téléphone est invalide.</string>
+
+</resources>
